@@ -317,32 +317,167 @@
 
     <!-- ================= FOOTER ================= -->
 
-    <footer class="border-t border-white/10 py-10">
+    <footer
+      class="border-t border-white/10 bg-[#0B1020] pt-20 pb-10 relative overflow-hidden"
+    >
+      <!-- Blur Effects -->
+
       <div
-        class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-5"
-      >
-        <!-- Logo -->
+        class="w-72 h-72 bg-pink-500/20 blur-3xl rounded-full absolute top-0 left-0"
+      ></div>
 
-        <h1
-          class="text-2xl font-black bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent"
+      <div
+        class="w-72 h-72 bg-violet-500/20 blur-3xl rounded-full absolute bottom-0 right-0"
+      ></div>
+
+      <div class="max-w-7xl mx-auto px-6 relative z-10">
+        <!-- Top Footer -->
+
+        <div
+          class="grid md:grid-cols-2 lg:grid-cols-4 gap-14 pb-16 border-b border-white/10"
         >
-          Nexora
-        </h1>
+          <!-- About -->
 
-        <!-- Copyright -->
+          <div>
+            <h1
+              class="text-3xl font-black bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent"
+            >
+              PixelNova
+            </h1>
 
-        <p class="text-gray-500 text-center">
-          © 2026 Nexora. All Rights Reserved.
-        </p>
+            <p class="text-gray-400 leading-8 mt-6">
+              Creating premium modern websites with creative UI design,
+              responsive layouts, and smooth user experience.
+            </p>
 
-        <!-- Social -->
+            <!-- Social Icons -->
 
-        <div class="flex gap-5 text-2xl">
-          <a href="#" class="hover:text-cyan-400 duration-300"> 🌐 </a>
+            <div class="flex gap-4 mt-8">
+              <a
+                href="#"
+                class="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-pink-500 duration-300 text-xl"
+              >
+                🌐
+              </a>
 
-          <a href="#" class="hover:text-blue-400 duration-300"> 📸 </a>
+              <a
+                href="#"
+                class="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-violet-500 duration-300 text-xl"
+              >
+                📸
+              </a>
 
-          <a href="#" class="hover:text-cyan-400 duration-300"> 🐦 </a>
+              <a
+                href="#"
+                class="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-pink-500 duration-300 text-xl"
+              >
+                🐦
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+
+          <div>
+            <h2 class="text-2xl font-bold mb-8">Quick Links</h2>
+
+            <div class="flex flex-col gap-5 text-gray-400">
+              <a href="#" class="hover:text-pink-400 duration-300"> Home </a>
+
+              <a href="#" class="hover:text-pink-400 duration-300">
+                About Us
+              </a>
+
+              <a href="#" class="hover:text-pink-400 duration-300">
+                Services
+              </a>
+
+              <a href="#" class="hover:text-pink-400 duration-300">
+                Portfolio
+              </a>
+
+              <a href="#" class="hover:text-pink-400 duration-300"> Contact </a>
+            </div>
+          </div>
+
+          <!-- Services -->
+
+          <div>
+            <h2 class="text-2xl font-bold mb-8">Services</h2>
+
+            <div class="flex flex-col gap-5 text-gray-400">
+              <a href="#" class="hover:text-violet-400 duration-300">
+                Web Design
+              </a>
+
+              <a href="#" class="hover:text-violet-400 duration-300">
+                UI/UX Design
+              </a>
+
+              <a href="#" class="hover:text-violet-400 duration-300">
+                Frontend Development
+              </a>
+
+              <a href="#" class="hover:text-violet-400 duration-300">
+                Branding
+              </a>
+
+              <a href="#" class="hover:text-violet-400 duration-300">
+                SEO Optimization
+              </a>
+            </div>
+          </div>
+
+          <!-- Newsletter -->
+
+          <div>
+            <h2 class="text-2xl font-bold mb-8">Newsletter</h2>
+
+            <p class="text-gray-400 leading-7 mb-6">
+              Subscribe to get the latest updates and design inspirations.
+            </p>
+
+            <div class="flex flex-col gap-4">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="bg-white/5 border border-white/10 rounded-full px-5 py-4 outline-none focus:border-pink-400 placeholder:text-gray-500"
+              />
+
+              <button
+                class="bg-gradient-to-r from-pink-500 to-violet-500 py-4 rounded-full font-bold hover:scale-105 duration-300 shadow-lg shadow-pink-500/20"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Footer -->
+
+        <div
+          class="pt-8 flex flex-col md:flex-row items-center justify-between gap-5"
+        >
+          <p class="text-gray-500 text-center">
+            © 2026 PixelNova. All Rights Reserved.
+          </p>
+
+          <div class="flex gap-8 text-gray-500">
+            <a
+              href="privacy-policy.html"
+              class="hover:text-pink-400 duration-300"
+            >
+              Privacy Policy
+            </a>
+
+            <a href="terms.html" class="hover:text-pink-400 duration-300">
+              Terms
+            </a>
+
+            <a href="support.html" class="hover:text-pink-400 duration-300">
+              Support
+            </a>
+          </div>
         </div>
       </div>
     </footer>
