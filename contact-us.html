@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact Us</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-[#0B1020] text-white overflow-x-hidden">
+    <!-- Background Blur -->
+
+    <div
+      class="w-80 h-80 bg-pink-500/30 blur-3xl rounded-full absolute top-0 left-0"
+    ></div>
+
+    <div
+      class="w-80 h-80 bg-violet-500/30 blur-3xl rounded-full absolute bottom-0 right-0"
+    ></div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav
+      class="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-white/5 border-b border-white/10"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between"
+      >
+        <!-- Logo -->
+
+        <h1
+          class="text-3xl font-black bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent"
+        >
+          PixelNova
+        </h1>
+
+        <!-- Menu -->
+
+        <div class="hidden md:flex items-center gap-10 text-[17px]">
+          <a href="#" class="hover:text-pink-400 duration-300"> Home </a>
+
+          <a href="#" class="hover:text-pink-400 duration-300"> About </a>
+
+          <a href="#" class="hover:text-pink-400 duration-300"> Services </a>
+
+          <a href="#" class="hover:text-pink-400 duration-300"> Contact </a>
+        </div>
+
+        <!-- Button -->
+
+        <a
+          href="#"
+          class="hidden md:block bg-gradient-to-r from-pink-500 to-violet-500 px-6 py-3 rounded-full font-semibold hover:scale-105 duration-300 shadow-lg shadow-pink-500/30"
+        >
+          Get Started
+        </a>
+      </div>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="pt-40 pb-20 relative">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <span
+          class="bg-white/10 border border-white/10 px-5 py-2 rounded-full text-sm tracking-wider text-pink-300"
+        >
+          CONTACT US
+        </span>
+
+        <h1 class="text-5xl md:text-7xl font-black mt-8 leading-tight">
+          Let’s Build Something
+
+          <span
+            class="bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent"
+          >
+            Amazing
+          </span>
+        </h1>
+
+        <p class="text-gray-400 text-lg leading-9 max-w-3xl mx-auto mt-8">
+          Have a project idea or want to work together? Feel free to contact us
+          anytime. We’d love to hear from you.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+
+    <section class="pb-24 relative">
+      <div
+        class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-14 items-center"
+      >
+        <!-- LEFT INFO -->
+
+        <div>
+          <h2 class="text-4xl font-black leading-tight">
+            Get In Touch With Our Team
+          </h2>
+
+          <p class="text-gray-400 leading-8 mt-6 text-lg">
+            We are always ready to help you create modern websites, improve your
+            brand identity, and build premium digital experiences.
+          </p>
+
+          <!-- Contact Cards -->
+
+          <div class="mt-12 flex flex-col gap-6">
+            <!-- Card -->
+
+            <div
+              class="bg-white/5 border border-white/10 p-6 rounded-3xl flex items-center gap-5 hover:border-pink-400/40 duration-300"
+            >
+              <div
+                class="w-16 h-16 rounded-2xl bg-gradient-to-r from-pink-500 to-violet-500 flex items-center justify-center text-3xl"
+              >
+                📧
+              </div>
+
+              <div>
+                <h3 class="text-2xl font-bold">Email Us</h3>
+
+                <p class="text-gray-400 mt-2">contact@pixelnova.com</p>
+              </div>
+            </div>
+
+            <!-- Card -->
+
+            <div
+              class="bg-white/5 border border-white/10 p-6 rounded-3xl flex items-center gap-5 hover:border-violet-400/40 duration-300"
+            >
+              <div
+                class="w-16 h-16 rounded-2xl bg-gradient-to-r from-violet-500 to-pink-500 flex items-center justify-center text-3xl"
+              >
+                📞
+              </div>
+
+              <div>
+                <h3 class="text-2xl font-bold">Call Us</h3>
+
+                <p class="text-gray-400 mt-2">+92 300 1234567</p>
+              </div>
+            </div>
+
+            <!-- Card -->
+
+            <div
+              class="bg-white/5 border border-white/10 p-6 rounded-3xl flex items-center gap-5 hover:border-pink-400/40 duration-300"
+            >
+              <div
+                class="w-16 h-16 rounded-2xl bg-gradient-to-r from-pink-500 to-orange-400 flex items-center justify-center text-3xl"
+              >
+                📍
+              </div>
+
+              <div>
+                <h3 class="text-2xl font-bold">Location</h3>
+
+                <p class="text-gray-400 mt-2">Lahore, Pakistan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT FORM -->
+
+        <div
+          class="bg-white/5 border border-white/10 backdrop-blur-xl p-10 rounded-[40px] shadow-2xl shadow-pink-500/10"
+        >
+          <h2 class="text-4xl font-black mb-8">Send Message</h2>
+
+          <!-- Form -->
+
+          <form class="flex flex-col gap-6">
+            <!-- Name -->
+
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="bg-[#141A32] border border-white/10 rounded-2xl px-6 py-5 outline-none focus:border-pink-400 placeholder:text-gray-500"
+            />
+
+            <!-- Email -->
+
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="bg-[#141A32] border border-white/10 rounded-2xl px-6 py-5 outline-none focus:border-violet-400 placeholder:text-gray-500"
+            />
+
+            <!-- Subject -->
+
+            <input
+              type="text"
+              placeholder="Subject"
+              class="bg-[#141A32] border border-white/10 rounded-2xl px-6 py-5 outline-none focus:border-pink-400 placeholder:text-gray-500"
+            />
+
+            <!-- Message -->
+
+            <textarea
+              rows="6"
+              placeholder="Write your message..."
+              class="bg-[#141A32] border border-white/10 rounded-2xl px-6 py-5 outline-none focus:border-violet-400 placeholder:text-gray-500 resize-none"
+            ></textarea>
+
+            <!-- Button -->
+
+            <button
+              class="bg-gradient-to-r from-pink-500 to-violet-500 py-5 rounded-2xl font-bold text-lg hover:scale-[1.02] duration-300 shadow-xl shadow-pink-500/20"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="border-t border-white/10 pt-10 pb-8">
+      <div
+        class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-5"
+      >
+        <!-- Logo -->
+
+        <h1
+          class="text-2xl font-black bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent"
+        >
+          PixelNova
+        </h1>
+
+        <!-- Text -->
+
+        <p class="text-gray-500 text-center">
+          © 2026 PixelNova. All Rights Reserved.
+        </p>
+
+        <!-- Social -->
+
+        <div class="flex gap-5 text-2xl">
+          <a href="#" class="hover:text-pink-400 duration-300"> 🌐 </a>
+
+          <a href="#" class="hover:text-violet-400 duration-300"> 📸 </a>
+
+          <a href="#" class="hover:text-pink-400 duration-300"> 🐦 </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
