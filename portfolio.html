@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio Page</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-[#0B1020] text-white overflow-x-hidden">
+    <!-- Background Blur -->
+
+    <div
+      class="w-80 h-80 bg-pink-500/30 blur-3xl rounded-full absolute top-0 left-0"
+    ></div>
+
+    <div
+      class="w-80 h-80 bg-violet-500/30 blur-3xl rounded-full absolute bottom-0 right-0"
+    ></div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav
+      class="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-white/5 border-b border-white/10"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between"
+      >
+        <!-- Logo -->
+
+        <h1
+          class="text-3xl font-black bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent"
+        >
+          PixelNova
+        </h1>
+
+        <!-- Menu -->
+
+        <div class="hidden md:flex items-center gap-10 text-[17px]">
+          <a href="#" class="hover:text-pink-400 duration-300"> Home </a>
+
+          <a href="#" class="hover:text-pink-400 duration-300"> About </a>
+
+          <a href="#" class="hover:text-pink-400 duration-300"> Portfolio </a>
+
+          <a href="#" class="hover:text-pink-400 duration-300"> Services </a>
+
+          <a href="#" class="hover:text-pink-400 duration-300"> Contact </a>
+        </div>
+
+        <!-- Button -->
+
+        <a
+          href="#"
+          class="hidden md:block bg-gradient-to-r from-pink-500 to-violet-500 px-6 py-3 rounded-full font-semibold hover:scale-105 duration-300 shadow-lg shadow-pink-500/30"
+        >
+          Hire Us
+        </a>
+      </div>
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="pt-40 pb-24 relative">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <span
+          class="bg-white/10 border border-white/10 px-5 py-2 rounded-full text-sm tracking-wider text-pink-300"
+        >
+          OUR PORTFOLIO
+        </span>
+
+        <h1 class="text-5xl md:text-7xl font-black mt-8 leading-tight">
+          Creative Digital
+
+          <span
+            class="bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent"
+          >
+            Projects
+          </span>
+        </h1>
+
+        <p class="text-gray-400 text-lg leading-9 max-w-3xl mx-auto mt-8">
+          Explore our latest premium web design and development projects built
+          with modern UI trends, responsive layouts, and creative experiences.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= PORTFOLIO GRID ================= -->
+
+    <section class="pb-24 relative">
+      <div class="max-w-7xl mx-auto px-6">
+        <!-- Grid -->
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- Project Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] overflow-hidden hover:-translate-y-3 duration-300 hover:border-pink-400/40 shadow-xl"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+                alt="Project"
+                class="w-full h-64 object-cover hover:scale-110 duration-500"
+              />
+            </div>
+
+            <div class="p-8">
+              <span class="text-pink-400 text-sm tracking-wider">
+                WEB DESIGN
+              </span>
+
+              <h2 class="text-3xl font-black mt-4">Creative Agency</h2>
+
+              <p class="text-gray-400 leading-8 mt-4">
+                Premium modern agency website with responsive design and smooth
+                user experience.
+              </p>
+
+              <a
+                href="#"
+                class="inline-block mt-6 bg-gradient-to-r from-pink-500 to-violet-500 px-6 py-3 rounded-full font-semibold hover:scale-105 duration-300"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] overflow-hidden hover:-translate-y-3 duration-300 hover:border-violet-400/40 shadow-xl"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1556740749-887f6717d7e4"
+                alt="Project"
+                class="w-full h-64 object-cover hover:scale-110 duration-500"
+              />
+            </div>
+
+            <div class="p-8">
+              <span class="text-violet-400 text-sm tracking-wider">
+                E-COMMERCE
+              </span>
+
+              <h2 class="text-3xl font-black mt-4">Online Store</h2>
+
+              <p class="text-gray-400 leading-8 mt-4">
+                Stylish ecommerce platform with modern UI, product showcase, and
+                responsive layouts.
+              </p>
+
+              <a
+                href="#"
+                class="inline-block mt-6 bg-gradient-to-r from-violet-500 to-pink-500 px-6 py-3 rounded-full font-semibold hover:scale-105 duration-300"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] overflow-hidden hover:-translate-y-3 duration-300 hover:border-pink-400/40 shadow-xl"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                alt="Project"
+                class="w-full h-64 object-cover hover:scale-110 duration-500"
+              />
+            </div>
+
+            <div class="p-8">
+              <span class="text-pink-400 text-sm tracking-wider">
+                DASHBOARD UI
+              </span>
+
+              <h2 class="text-3xl font-black mt-4">Admin Dashboard</h2>
+
+              <p class="text-gray-400 leading-8 mt-4">
+                Modern dashboard design with analytics cards, charts, and clean
+                responsive structure.
+              </p>
+
+              <a
+                href="#"
+                class="inline-block mt-6 bg-gradient-to-r from-pink-500 to-orange-400 px-6 py-3 rounded-full font-semibold hover:scale-105 duration-300"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] overflow-hidden hover:-translate-y-3 duration-300 hover:border-violet-400/40 shadow-xl"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d"
+                alt="Project"
+                class="w-full h-64 object-cover hover:scale-110 duration-500"
+              />
+            </div>
+
+            <div class="p-8">
+              <span class="text-violet-400 text-sm tracking-wider">
+                MOBILE APP
+              </span>
+
+              <h2 class="text-3xl font-black mt-4">Finance App</h2>
+
+              <p class="text-gray-400 leading-8 mt-4">
+                Clean mobile app UI with modern components, dark mode design,
+                and premium visuals.
+              </p>
+
+              <a
+                href="#"
+                class="inline-block mt-6 bg-gradient-to-r from-violet-500 to-pink-500 px-6 py-3 rounded-full font-semibold hover:scale-105 duration-300"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] overflow-hidden hover:-translate-y-3 duration-300 hover:border-pink-400/40 shadow-xl"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+                alt="Project"
+                class="w-full h-64 object-cover hover:scale-110 duration-500"
+              />
+            </div>
+
+            <div class="p-8">
+              <span class="text-pink-400 text-sm tracking-wider">
+                LANDING PAGE
+              </span>
+
+              <h2 class="text-3xl font-black mt-4">Startup Website</h2>
+
+              <p class="text-gray-400 leading-8 mt-4">
+                Modern startup landing page with gradients, animations, and
+                premium user experience.
+              </p>
+
+              <a
+                href="#"
+                class="inline-block mt-6 bg-gradient-to-r from-pink-500 to-violet-500 px-6 py-3 rounded-full font-semibold hover:scale-105 duration-300"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] overflow-hidden hover:-translate-y-3 duration-300 hover:border-violet-400/40 shadow-xl"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+                alt="Project"
+                class="w-full h-64 object-cover hover:scale-110 duration-500"
+              />
+            </div>
+
+            <div class="p-8">
+              <span class="text-violet-400 text-sm tracking-wider">
+                BRANDING
+              </span>
+
+              <h2 class="text-3xl font-black mt-4">Digital Branding</h2>
+
+              <p class="text-gray-400 leading-8 mt-4">
+                Creative branding showcase with modern visuals, typography, and
+                unique design style.
+              </p>
+
+              <a
+                href="#"
+                class="inline-block mt-6 bg-gradient-to-r from-violet-500 to-pink-500 px-6 py-3 rounded-full font-semibold hover:scale-105 duration-300"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA SECTION ================= -->
+
+    <section class="pb-24">
+      <div class="max-w-5xl mx-auto px-6">
+        <div
+          class="bg-gradient-to-r from-pink-500 to-violet-600 rounded-[40px] p-14 text-center shadow-2xl"
+        >
+          <h2 class="text-4xl md:text-5xl font-black leading-tight">
+            Have A Project In Mind?
+          </h2>
+
+          <p class="text-white/80 text-lg mt-6 leading-8 max-w-2xl mx-auto">
+            Let’s work together and create beautiful digital experiences with
+            modern design and development.
+          </p>
+
+          <a
+            href="#"
+            class="inline-block mt-10 bg-white text-black px-8 py-4 rounded-full font-bold hover:scale-105 duration-300"
+          >
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="border-t border-white/10 pt-10 pb-8">
+      <div
+        class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-5"
+      >
+        <!-- Logo -->
+
+        <h1
+          class="text-2xl font-black bg-gradient-to-r from-pink-400 to-violet-400 bg-clip-text text-transparent"
+        >
+          PixelNova
+        </h1>
+
+        <!-- Text -->
+
+        <p class="text-gray-500 text-center">
+          © 2026 PixelNova. All Rights Reserved.
+        </p>
+
+        <!-- Social -->
+
+        <div class="flex gap-5 text-2xl">
+          <a href="#" class="hover:text-pink-400 duration-300"> 🌐 </a>
+
+          <a href="#" class="hover:text-violet-400 duration-300"> 📸 </a>
+
+          <a href="#" class="hover:text-pink-400 duration-300"> 🐦 </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
