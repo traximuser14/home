@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Frontend Development</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-[#050816] text-white overflow-x-hidden">
+    <!-- ================= BACKGROUND EFFECTS ================= -->
+
+    <div
+      class="absolute top-0 left-0 w-[500px] h-[500px] bg-emerald-500/10 blur-3xl rounded-full"
+    ></div>
+
+    <div
+      class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-green-500/10 blur-3xl rounded-full"
+    ></div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav
+      class="fixed top-0 left-0 w-full z-50 bg-[#0B1023]/80 backdrop-blur-xl border-b border-white/10"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between"
+      >
+        <!-- Logo -->
+
+        <h1
+          class="text-3xl font-black bg-gradient-to-r from-emerald-400 to-green-500 bg-clip-text text-transparent"
+        >
+          Devora
+        </h1>
+
+        <!-- Menu -->
+
+        <div class="hidden md:flex items-center gap-10 text-[17px]">
+          <a href="#" class="hover:text-emerald-400 duration-300"> Home </a>
+
+          <a href="#" class="hover:text-emerald-400 duration-300"> Services </a>
+
+          <a href="#" class="text-emerald-400"> Frontend Development </a>
+
+          <a href="#" class="hover:text-emerald-400 duration-300">
+            Portfolio
+          </a>
+
+          <a href="#" class="hover:text-emerald-400 duration-300"> Contact </a>
+        </div>
+
+        <!-- Button -->
+
+        <a
+          href="#"
+          class="hidden md:block bg-gradient-to-r from-emerald-400 to-green-500 text-black font-bold px-6 py-3 rounded-full hover:scale-105 duration-300"
+        >
+          Start Project
+        </a>
+      </div>
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="pt-40 pb-24 relative">
+      <div
+        class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center"
+      >
+        <!-- LEFT -->
+
+        <div>
+          <span
+            class="bg-emerald-500/10 border border-emerald-400/20 px-5 py-2 rounded-full text-emerald-300 text-sm tracking-widest"
+          >
+            FRONTEND DEVELOPMENT
+          </span>
+
+          <h1 class="text-5xl md:text-7xl font-black leading-tight mt-8">
+            Fast & Modern
+            <span
+              class="bg-gradient-to-r from-emerald-400 to-green-500 bg-clip-text text-transparent"
+            >
+              Frontend Solutions
+            </span>
+          </h1>
+
+          <p class="text-gray-400 text-lg leading-9 mt-8 max-w-2xl">
+            We build high-performance frontend websites with responsive layouts,
+            modern animations, clean code, and premium user experiences.
+          </p>
+
+          <!-- Features -->
+
+          <div class="mt-10 flex flex-col gap-5">
+            <div class="flex items-center gap-4">
+              <div
+                class="w-12 h-12 rounded-2xl bg-gradient-to-r from-emerald-400 to-green-500 flex items-center justify-center text-black font-black"
+              >
+                ✔
+              </div>
+
+              <p class="text-lg text-gray-300">Responsive Web Design</p>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <div
+                class="w-12 h-12 rounded-2xl bg-gradient-to-r from-green-500 to-emerald-400 flex items-center justify-center text-black font-black"
+              >
+                ✔
+              </div>
+
+              <p class="text-lg text-gray-300">Modern UI Components</p>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <div
+                class="w-12 h-12 rounded-2xl bg-gradient-to-r from-emerald-400 to-green-500 flex items-center justify-center text-black font-black"
+              >
+                ✔
+              </div>
+
+              <p class="text-lg text-gray-300">Optimized Performance</p>
+            </div>
+          </div>
+
+          <!-- Buttons -->
+
+          <div class="flex flex-wrap gap-5 mt-12">
+            <a
+              href="#"
+              class="bg-gradient-to-r from-emerald-400 to-green-500 text-black font-bold px-8 py-4 rounded-2xl hover:scale-105 duration-300"
+            >
+              Hire Developer
+            </a>
+
+            <a
+              href="#"
+              class="border border-white/10 bg-white/5 hover:bg-white/10 px-8 py-4 rounded-2xl font-semibold duration-300"
+            >
+              View Projects
+            </a>
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+
+        <div class="relative">
+          <!-- Main Image -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[40px] p-5 backdrop-blur-xl shadow-2xl shadow-emerald-500/10"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+              alt="Frontend Development"
+              class="rounded-[30px] w-full h-[620px] object-cover"
+            />
+          </div>
+
+          <!-- Floating Card -->
+
+          <div
+            class="absolute -bottom-8 -left-8 bg-[#12172B] border border-white/10 rounded-3xl p-8 shadow-2xl"
+          >
+            <h2 class="text-5xl font-black text-emerald-400">200+</h2>
+
+            <p class="text-gray-400 mt-3 text-lg">Frontend Projects</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TECHNOLOGIES SECTION ================= -->
+
+    <section class="pb-24">
+      <div class="max-w-7xl mx-auto px-6">
+        <!-- Heading -->
+
+        <div class="text-center mb-20">
+          <span class="text-emerald-400 tracking-widest text-sm">
+            TECHNOLOGIES
+          </span>
+
+          <h2 class="text-5xl md:text-6xl font-black mt-6">Tools We Use</h2>
+        </div>
+
+        <!-- Grid -->
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <!-- Tech Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] p-10 text-center hover:-translate-y-3 duration-300 hover:border-emerald-400/40"
+          >
+            <div class="text-6xl">🌐</div>
+
+            <h3 class="text-3xl font-black mt-8">HTML5</h3>
+
+            <p class="text-gray-400 leading-8 mt-5">
+              Semantic and modern structure for professional websites.
+            </p>
+          </div>
+
+          <!-- Tech Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] p-10 text-center hover:-translate-y-3 duration-300 hover:border-green-400/40"
+          >
+            <div class="text-6xl">🎨</div>
+
+            <h3 class="text-3xl font-black mt-8">Tailwind CSS</h3>
+
+            <p class="text-gray-400 leading-8 mt-5">
+              Utility-first framework for fast and responsive UI design.
+            </p>
+          </div>
+
+          <!-- Tech Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] p-10 text-center hover:-translate-y-3 duration-300 hover:border-emerald-400/40"
+          >
+            <div class="text-6xl">⚡</div>
+
+            <h3 class="text-3xl font-black mt-8">JavaScript</h3>
+
+            <p class="text-gray-400 leading-8 mt-5">
+              Interactive functionality and dynamic frontend experiences.
+            </p>
+          </div>
+
+          <!-- Tech Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] p-10 text-center hover:-translate-y-3 duration-300 hover:border-green-400/40"
+          >
+            <div class="text-6xl">🚀</div>
+
+            <h3 class="text-3xl font-black mt-8">Vue.js</h3>
+
+            <p class="text-gray-400 leading-8 mt-5">
+              Modern JavaScript framework for scalable frontend apps.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES SECTION ================= -->
+
+    <section class="pb-24">
+      <div class="max-w-7xl mx-auto px-6">
+        <!-- Heading -->
+
+        <div class="text-center mb-20">
+          <span class="text-emerald-400 tracking-widest text-sm">
+            OUR SERVICES
+          </span>
+
+          <h2 class="text-5xl md:text-6xl font-black mt-6">
+            Frontend Solutions
+          </h2>
+        </div>
+
+        <!-- Services Grid -->
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] p-10 hover:-translate-y-3 duration-300 hover:border-emerald-400/40"
+          >
+            <div class="text-6xl">💻</div>
+
+            <h3 class="text-3xl font-black mt-8">Landing Pages</h3>
+
+            <p class="text-gray-400 leading-8 mt-5">
+              High-converting landing pages with premium responsive designs.
+            </p>
+          </div>
+
+          <!-- Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] p-10 hover:-translate-y-3 duration-300 hover:border-green-400/40"
+          >
+            <div class="text-6xl">📱</div>
+
+            <h3 class="text-3xl font-black mt-8">Responsive Websites</h3>
+
+            <p class="text-gray-400 leading-8 mt-5">
+              Websites optimized for desktop, mobile, and tablet devices.
+            </p>
+          </div>
+
+          <!-- Card -->
+
+          <div
+            class="bg-white/5 border border-white/10 rounded-[35px] p-10 hover:-translate-y-3 duration-300 hover:border-emerald-400/40"
+          >
+            <div class="text-6xl">⚙️</div>
+
+            <h3 class="text-3xl font-black mt-8">Web Applications</h3>
+
+            <p class="text-gray-400 leading-8 mt-5">
+              Dynamic frontend applications with modern frameworks and APIs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WORK PROCESS ================= -->
+
+    <section class="pb-24">
+      <div class="max-w-7xl mx-auto px-6">
+        <!-- Heading -->
+
+        <div class="text-center mb-20">
+          <span class="text-emerald-400 tracking-widest text-sm">
+            DEVELOPMENT PROCESS
+          </span>
+
+          <h2 class="text-5xl md:text-6xl font-black mt-6">How We Build</h2>
+        </div>
+
+        <!-- Timeline -->
+
+        <div class="space-y-10">
+          <!-- Item -->
+
+          <div
+            class="flex flex-col lg:flex-row gap-8 items-start bg-white/5 border border-white/10 rounded-[35px] p-10"
+          >
+            <div
+              class="w-24 h-24 rounded-3xl bg-gradient-to-r from-emerald-400 to-green-500 flex items-center justify-center text-black text-4xl font-black"
+            >
+              01
+            </div>
+
+            <div>
+              <h3 class="text-4xl font-black">Planning & Strategy</h3>
+
+              <p class="text-gray-400 text-lg leading-9 mt-5">
+                Understanding project goals, wireframes, and frontend
+                requirements.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item -->
+
+          <div
+            class="flex flex-col lg:flex-row gap-8 items-start bg-white/5 border border-white/10 rounded-[35px] p-10"
+          >
+            <div
+              class="w-24 h-24 rounded-3xl bg-gradient-to-r from-green-500 to-emerald-400 flex items-center justify-center text-black text-4xl font-black"
+            >
+              02
+            </div>
+
+            <div>
+              <h3 class="text-4xl font-black">Development</h3>
+
+              <p class="text-gray-400 text-lg leading-9 mt-5">
+                Building responsive and scalable frontend systems with clean
+                code.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item -->
+
+          <div
+            class="flex flex-col lg:flex-row gap-8 items-start bg-white/5 border border-white/10 rounded-[35px] p-10"
+          >
+            <div
+              class="w-24 h-24 rounded-3xl bg-gradient-to-r from-emerald-400 to-green-500 flex items-center justify-center text-black text-4xl font-black"
+            >
+              03
+            </div>
+
+            <div>
+              <h3 class="text-4xl font-black">Testing & Launch</h3>
+
+              <p class="text-gray-400 text-lg leading-9 mt-5">
+                Performance testing, optimization, and final deployment for
+                production.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA SECTION ================= -->
+
+    <section class="pb-24">
+      <div class="max-w-5xl mx-auto px-6">
+        <div
+          class="bg-gradient-to-r from-emerald-400 to-green-500 rounded-[50px] p-16 text-center shadow-2xl"
+        >
+          <h2 class="text-5xl md:text-6xl font-black text-black leading-tight">
+            Need A Frontend Developer?
+          </h2>
+
+          <p class="text-black/70 text-lg leading-9 mt-8 max-w-3xl mx-auto">
+            Let Devora build fast, responsive, and modern frontend experiences
+            for your brand.
+          </p>
+
+          <a
+            href="#"
+            class="inline-block mt-10 bg-black text-white px-10 py-5 rounded-2xl font-bold hover:scale-105 duration-300"
+          >
+            Start Your Project
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="border-t border-white/10 py-10">
+      <div
+        class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-5"
+      >
+        <!-- Logo -->
+
+        <h1
+          class="text-2xl font-black bg-gradient-to-r from-emerald-400 to-green-500 bg-clip-text text-transparent"
+        >
+          Devora
+        </h1>
+
+        <!-- Copyright -->
+
+        <p class="text-gray-500 text-center">
+          © 2026 Devora. All Rights Reserved.
+        </p>
+
+        <!-- Social -->
+
+        <div class="flex gap-5 text-2xl">
+          <a href="#" class="hover:text-emerald-400 duration-300"> 🌐 </a>
+
+          <a href="#" class="hover:text-green-400 duration-300"> 📸 </a>
+
+          <a href="#" class="hover:text-emerald-400 duration-300"> 🐦 </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
